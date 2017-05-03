@@ -1,0 +1,15 @@
+This project is designed to achieve code/data compression and decompression of binary bits and attain best compression ratio
+using dictionary and bitmask based compression techniques. The dictionary consists of 16 most freqeunt entries but can be modified
+to have 'n' dictionary entries. The compression has been performed based on the following formats:
+
+1. Run length encoding (upto 8 repeating words)
+2. Bitmask compression (upto 4 consecutive bits)
+3. 1-bit mismatch
+4. 2-bit consecutive mismatch
+5. 4-bit consecutive mismatch
+6. 2-bit mismatch anywhere
+7. Direct matching with the dictionary entry
+
+The format of the above mentioned techniques has been defined in the file named "compression formats".
+The compressed output file is named "cout.txt" whereas the decompressed result is written to file named "dout.txt"
+2 test cases were run and compression ratio of 0.32-0.40 was achieved. 
