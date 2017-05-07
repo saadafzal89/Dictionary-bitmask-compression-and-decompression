@@ -1,5 +1,5 @@
 This project is designed to achieve code/data compression and decompression of binary bits and attain best compression ratio
-using dictionary and bitmask based compression techniques. The dictionary consists of 16 most freqeunt entries but can be modified
+using dictionary and bitmask based compression techniques. The dictionary consists of 16 most frequent entries but can be modified
 to have 'n' dictionary entries. The compression has been performed based on the following formats:
 
 1. Run length encoding (upto 8 repeating words)
